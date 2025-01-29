@@ -22,20 +22,27 @@ I chose to use an AWS EC2 instance (`t2.micro`, Ubuntu 24.04) for this task. I l
 - **Security Group:** Allowed HTTP (port 80) and SSH (port 22)  
 - **Key Pair:** Used for SSH access  
 
-### Step 2: Installing NGINX
+### Step 2: Installing and Enabling NGINX
 After SSH-ing into the server, I updated the package lists and installed NGINX:
 
 ```bash
 sudo apt update && sudo apt install -y nginx
 ```
 
-After installation, I confirmed that NGINX was running with:
+After installation, I started and enabled NGINX to ensure it runs on boot:
+
+```bash
+sudo systemctl start nginx
+sudo systemctl enable nginx
+```
+
+I then confirmed that NGINX was running with:
 
 ```bash
 sudo systemctl status nginx
 ```
 
-The output confirmed that NGINX was **active (running).**
+The output confirmed that NGINX was **active (running)**.
 
 ### Step 3: Creating the Custom HTML Page
 When I navigated to `/var/www/html/`, I noticed that the existing file was named `index.nginx-debian.html` instead of `index.html`.

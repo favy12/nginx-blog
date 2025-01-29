@@ -1,10 +1,5 @@
 # Setting Up an NGINX Web Server: My Journey Through DevOps Stage 0
 
-## Introduction
-As an aspiring DevOps engineer, setting up an NGINX web server on a fresh Ubuntu instance felt like the perfect way to dive into web server configuration. This task challenged me to install, configure, and deploy a basic web page using NGINX, marking my first step into infrastructure automation and web hosting.
-
-In this blog, I will walk you through my approach, the challenges I faced, how I resolved them, and what I learned.
-
 ## Task Overview
 The goal was to:
 
@@ -15,6 +10,8 @@ The goal was to:
   
 - Ensure the webpage is accessible via the public IP of the server.
 - Document the experience in a blog post.
+- Overall, demonstrate my ability to work with basic web server configurations and deliver a functional web server.
+
 
 ## Approach to Completing the Task
 

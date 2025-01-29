@@ -67,7 +67,7 @@ I added the required content:
     <title>DevOps Stage 0</title>
 </head>
 <body>
-    <h1>Welcome to DevOps Stage 0 - Makanju Favour/FavourSlack</h1>
+    <h1>Welcome to DevOps Stage 0 - Makanju Favour/Fave</h1>
 </body>
 </html>
 ```
@@ -97,12 +97,6 @@ sudo nginx -t
 The output confirmed that the configuration file was correct.
 
 ### Step 6: Accessing the Web Page
-I retrieved my public IP address using:
-
-```bash
-curl ifconfig.me
-```
-
 Then, I entered `http://<my-server-ip>/` in my browser.
 my-server-ip = 3.95.230.183
 
@@ -127,22 +121,6 @@ Then, I edited the file using:
 sudo vim /var/www/html/index.html
 ```
 
-### 2. NGINX Not Running After Installation
-After installing NGINX, I found that it wasn’t running.
-
-#### Solution:
-I manually started NGINX using:
-
-```bash
-sudo systemctl start nginx
-```
-
-I also enabled it to start on boot:
-
-```bash
-sudo systemctl enable nginx
-```
-
 ## How This Task Contributes to My Learning and Goals
 This task helped me strengthen my foundational skills in:
 
@@ -154,21 +132,21 @@ This task helped me strengthen my foundational skills in:
 ## References
 Throughout this process, I explored roles in DevOps and cloud engineering. If you're interested in learning more, check out:
 
-- **DevOps Engineers**
-- **Cloud Engineers**
-- **Site Reliability Engineers**
-- **Platform Engineers**
-- **Infrastructure Engineers**
-- **Kubernetes Specialists**
-- **AWS Solutions Architects**
-- **Azure DevOps Engineers**
-- **Google Cloud Engineers**
-- **CI/CD Pipeline Engineers**
-- **Monitoring/Observability Engineers**
-- **Automation Engineers**
-- **Docker Specialists**
-- **Linux Developers**
-- **PostgreSQL Developers**
+- [DevOps Engineers](https://hng.tech/hire/devops-engineers)
+- [Cloud Engineers](https://hng.tech/hire/cloud-engineers)
+- [Site Reliability Engineers](https://hng.tech/hire/site-reliability-engineers)
+- [Platform Engineers](https://hng.tech/hire/platform-engineers)
+- [Infrastructure Engineers](https://hng.tech/hire/infrastructure-engineers)
+- [Kubernetes Specialists](https://hng.tech/hire/kubernetes-specialists)
+- [AWS Solutions Architects](https://hng.tech/hire/aws-solutions-architects)
+- [Azure DevOps Engineers](https://hng.tech/hire/azure-devops-engineers)
+- [Google Cloud Engineers](https://hng.tech/hire/google-cloud-engineers)
+- [CI/CD Pipeline Engineers](https://hng.tech/hire/ci-cd-pipeline-engineers)
+- [Monitoring/Observability Engineers](https://hng.tech/hire/monitoring-observability-engineers)
+- [Automation Engineers](https://hng.tech/hire/automation-engineers)
+- [Docker Specialists](https://hng.tech/hire/docker-specialists)
+- [Linux Developers](https://hng.tech/hire/linux-developers)
+- [PostgreSQL Developers](https://hng.tech/hire/postgresql-developers)
 
 ## Conclusion
 Completing this task was both challenging and rewarding. It reinforced my understanding of **NGINX, server management, and troubleshooting** in a cloud environment.

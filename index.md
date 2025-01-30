@@ -14,13 +14,12 @@ The task was to:
 
 - Install and configure NGINX on an Ubuntu server.
 
-- Serve a custom HTML page at /var/www/html/index.html with:
+- Serve a custom HTML page at **/var/www/html/index.html** with:
 
 **"Welcome to DevOps Stage 0 - Makanju Favour/Fave"**
 
 - Make the webpage accessible via the public IP of the server.
 
-- Write a blog post about it.
 
 ---
 
@@ -109,7 +108,6 @@ sudo nginx -t
 ### Step 5: Access the Web Page
 
 Then I entered `http://<my-server-ip>/` in my browser 
-my-server-ip = 3.95.230.183
 
 and saw:
 
